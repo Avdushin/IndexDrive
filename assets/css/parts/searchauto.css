@@ -1,0 +1,39 @@
+.search-wrapper {
+}
+.search-wrapper h1 {
+    text-align: center;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #cdcdcd;
+    width: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.search-class input {
+    width: 40%;
+    margin: 0 auto;
+}
+.search-mark input {
+    width: 40%;
+    margin: 0 auto;
+}
+.search-model input {
+    width: 40%;
+    margin: 0 auto;
+}
+.search-btn {
+}
+.search-b {
+    border: none;
+}
+
+@media (max-width: 814px) {
+    .search {
+        width: 100%;
+    }
+}

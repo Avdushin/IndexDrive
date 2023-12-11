@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* General variables */
+
+:root {
+  /* General */
+  /* fonts */
+  --font-size: 1.2rem;
+	--font-famyly: 'Roboto', sans-serif;;
+  /* general colors */
+  --color: #373737;
+  --bg-color: #dddddd;
+  /* links */
+  --link-color: #373737;
+  /* Header */
+  --header-color: #ffffff;
+  --header-bg-color: #373737de;
+  --header-height: 35px;
+	/* Burger */
+	--sidebar-bg: #f4f4f4ec;
+	--sidebar-color: #373737;
+  /* Main */
+  /* Footer */
+  --footer-bg-color: #373737;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--bg-color);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	font-family: var(--font-famyly);
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+/* pharagraphs */
+p {
+  color: var(--color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color);
+}
+
+/* Containers */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

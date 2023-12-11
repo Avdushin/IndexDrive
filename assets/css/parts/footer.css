@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  background: #d0b6b6;
+}
+.footer-phone {
+  transition: border-bottom 0.1s ease-in-out;
+}
+.footer-phone:hover {
+  border-bottom: 1px solid var(--color);
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer-nav__link {
+}
+
+@media (max-width: 400px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 70px 0;
+    /* font-size: 1.3rem; */
+  }
+}
